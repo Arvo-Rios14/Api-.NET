@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sithec", "Sithec\Sithec.csproj", "{1CB51C60-F556-412E-AEF8-143CBB4DA853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sithec.Models", "Sithec.Models\Sithec.Models.csproj", "{AD4041B2-0FAF-4AE4-B435-88DE694B89F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CB51C60-F556-412E-AEF8-143CBB4DA853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB51C60-F556-412E-AEF8-143CBB4DA853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB51C60-F556-412E-AEF8-143CBB4DA853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB51C60-F556-412E-AEF8-143CBB4DA853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4041B2-0FAF-4AE4-B435-88DE694B89F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4041B2-0FAF-4AE4-B435-88DE694B89F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4041B2-0FAF-4AE4-B435-88DE694B89F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4041B2-0FAF-4AE4-B435-88DE694B89F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F292CE56-8F0D-404E-898E-FD950561C7C9}
+	EndGlobalSection
+EndGlobal
