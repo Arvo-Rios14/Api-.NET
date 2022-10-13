@@ -17,7 +17,7 @@ namespace Sithec.Controllers
             db = _db;
         }
 
-        [HttpGet]
+        [HttpGet("GetAllHumans")]
         public async Task<IActionResult> GetAllHumans()
         {
             try
@@ -31,7 +31,7 @@ namespace Sithec.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("GetHumanByID/{id}")]
         public async Task<IActionResult> GetHumanByID(int id)
         {
             try
@@ -46,7 +46,7 @@ namespace Sithec.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("InsertHuman")]
         public async Task<IActionResult> InsertHuman([FromBody] Human human)
         {
             try
@@ -61,7 +61,7 @@ namespace Sithec.Controllers
             }
         }
 
-        [HttpPut]
+        [HttpPut("UpdateHuman")]
         public async Task<IActionResult> UpdateHuman([FromBody] Human human)
         {
             try
